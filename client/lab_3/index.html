@@ -3,3 +3,56 @@
     - The styles in this folder's `style.css`
     - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
 -->
+<!DOCTYPE html>
+<html lang="en" class="html">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sang Hwa Lee - Lab 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header h1"><h1>Sang Hwa's Labs For INST377</h1></header>
+    <div class="container">
+      <div class="left_section box">
+        <h2 class="h2">Album Names</h2>
+        <ol class="box">
+          <li>Alone Again - Gilbert O'Sullivan</li>
+          <li>Can't Take My Eyes off of You - Frankie Valli and The 4 Seasons </li>
+          <li>Englishman In New York - Sting</li>
+          <li>Fly Me To The Moon - Frank Sinatra</li>
+          <li>Shape Of My Heart - Sting</li>
+        </ol>
+      </div>
+
+      <div class="right_section box">
+        <h2>Image Carousel</h2>
+        <div class="carousel">
+          <button class = "prev">prev</button>
+            <div class = "slides">
+              <div class = "carousel_item" visible><img id="slide1" src='images/spongebob1.png' alt = "SpongeBob"></div>
+              <div class = "carousel_item" hidden><img id="slide2" src='images/spongebob2.png' alt = "Squidward"></div>
+              <div class = "carousel_item" hidden><img id="slide3" src='images/spongebob3.png' alt = "Patrick Star"></div>
+              <div class = "carousel_item" hidden><img id="slide4" src='images/spongebob4.png' alt = "Gary"></div>
+            </div>
+            <button class = "next">next</button>
+        </div>
+        <div class="box">
+          Description of the image above
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <footer class="footer a">
+    GITHUB ACCOUNT NAME : slee0819 <a href="http://github.com/slee0819" target="_blank" rel="noopener noreferrer">Sang Hwa Lee Github account</a>
+  </footer>
+  <div>
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
+
+
