@@ -255,13 +255,19 @@ div.carousel {
   border: 2px solid rgb(99,99,99); /* shorthand for how to do a border */
 }
 
-.prev:focus,
+.prev:focus {
+  border-color: blueviolet;
+}
+  
 .next:focus {
   margin: 0;
-  /* Pick a good border colour and check out how it works with your buttons */
+  border-color: blueviolet;
 }
 
-.prev:hover,
+.prev:hover {
+  background-color: aqua;
+}
+
 .next:hover {
-  /* Pick a good background colour for your hover pseudoclass */
+  background-color: aquamarine;
 }
