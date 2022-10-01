@@ -56,11 +56,6 @@ form {
   - note that the period vanishes there!
 */
 
-div {
-  border: 2px dashed rgba(0, 0, 0, 0.8);
-}
-
-
 .wrapper {
   min-height: 100vh;
   display: flex;
