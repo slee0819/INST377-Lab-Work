@@ -1,7 +1,3 @@
-/*
-  Hook this script to index.html
-  by adding `<script src="script.js">` just before your closing `</body>` tag
-*/
 
 async function mainEvent() { // the async keyword means we can make API requests
   const form = document.querySelector('.main_form'); // This class name needs to be set on your form before you can listen for an event on it
@@ -32,6 +28,7 @@ async function mainEvent() { // the async keyword means we can make API requests
         to send a request to the routes defined in /server/routes/foodServiceRoutes.js
 
       // this is a basic GET request
+      
       // It does not include any of your form values, though
     */
 
